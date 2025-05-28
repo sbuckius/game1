@@ -163,26 +163,9 @@ function draw() {
 
 
 function drawBarGraph() {
-  //fill(0);
- // textSize(10);
- // text("Does AI support you by saving you time **at home**?", 50, 50);
   let barWidth = width / max(responseList.length, 1);
   let maxCount = max(Object.values(responses));
-  
 
-
-//if (responses[response]) {
-  //responses[response]++;
-//} else {
-  //responses[response] = 1;
-  //responseList.push(response);
-
-  // ✅ assign a random image ONCE
- // if (!responseImages[response]) {
-  //  responseImages[response] = random(images);
- // }
-//}
-  
   for (let i = 0; i < responseList.length; i++) {
     let resp = responseList[i];
     let count = responses[resp];
@@ -190,18 +173,17 @@ function drawBarGraph() {
     let img = responseImages[resp];
 
     if (img) {
-      for (let y = height - barHeight - 20; y < height - 20; y += img.height) {
+      for (let y = height - barHeight - 40; y < height - 40; y += img.height) {
         for (let x = i * barWidth + 20; x < i * barWidth + 20 + barWidth - 30; x += img.width) {
           image(img, x, y, img.width, img.height);
         }
       }
     }
-text("Does AI support you by saving you time **at home**?", 50, 390);
-   fill(0);
-   textSize(12);
-   textAlign(CENTER);
-    text(resp, i * barWidth + 20 + (barWidth - 30) / 2, height - 5);
-    text("Does AI support you by saving you time **at home**?", 50, 390);
+
+    fill(0);
+    textSize(12);
+    textAlign(CENTER);
+    text(resp, i * barWidth + 20 + (barWidth - 30) / 2, height - 20); // label each bar
   }
 }
 
