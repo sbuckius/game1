@@ -80,12 +80,15 @@ saveDataButton.mousePressed(saveDataToCSV);
  // });
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCSAOhgQ9wn4Yw1p1B4Qohx19fDIy_MV44",
-  authDomain: "graph2-9ef9c.firebaseapp.com",
-  projectId: "graph2-9ef9c",
-  storageBucket: "graph2-9ef9c.firebasestorage.app",
-  messagingSenderId: "1038101689471",
-  appId: "1:1038101689471:web:7f64c54a4d1d1e5ff33b4a"
+
+  apiKey: "AIzaSyCj71SpCy3aCXPhVhRFWK2ieovrmK-568k",
+  authDomain: "game1dataunbiased.firebaseapp.com",
+  databaseURL: "https://game1dataunbiased-default-rtdb.firebaseio.com",
+  projectId: "game1dataunbiased",
+  storageBucket: "game1dataunbiased.firebasestorage.app",
+  messagingSenderId: "427174534513",
+  appId: "1:427174534513:web:2b309de3a1ec2d62c92ad0"
+
 };
 
   firebase.initializeApp(firebaseConfig);
