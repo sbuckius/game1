@@ -1,4 +1,4 @@
-console.log("sketch.js loaded");
+
 let input, submitButton, saveGraphButton, savePatternButton, showGraphButton, showPatternButton, restartButton, saveDataButton; 
 let responses = {};
 let responseList = [];
