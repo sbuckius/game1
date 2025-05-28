@@ -23,7 +23,7 @@ function preload() {
 function setup() {
  // canvas = createCanvas(800, 400);
  // canvas.position(20, 100); // Move canvas down to avoid overlapping input/buttons
-createCanvas(800, 400);
+createCanvas(800, 500);
   input = createInput();
   input.position(20, 20);
 
@@ -158,7 +158,7 @@ function draw() {
   fill(0);
   textSize(12);
   textAlign(LEFT);
-  text("Does AI support you by saving you time **at home**?", 50, height - 10); // Bottom
+  text("Does AI support you by saving you time **at home**?", 50, height + 10); // Bottom
 }
 
 
