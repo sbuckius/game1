@@ -147,7 +147,7 @@ function draw() {
   fill(0);
   textSize(12);
   textAlign(LEFT);
-  text("Does AI support you by saving you time **at home**?", 50, 100); // Top
+  text("Does AI support you by saving you time **at home**?", 50, 50); // Top
 
   if (showPattern) {
     drawJacquardPattern();
@@ -158,7 +158,7 @@ function draw() {
   fill(0);
   textSize(12);
   textAlign(LEFT);
-  text("Does AI support you by saving you time **at home**?", 50, height + 10); // Bottom
+  text("Does AI support you by saving you time **at home**?", 50, 450); // Bottom
 }
 
 
