@@ -192,7 +192,7 @@ function drawBarGraph() {
         }
       }
     }
-text("Does AI support you by saving you time **at home**?", 300, 50);
+text("Does AI support you by saving you time **at home**?", 50, 390);
    fill(0);
    textSize(12);
    textAlign(CENTER);
