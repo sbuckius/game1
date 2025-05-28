@@ -11,7 +11,7 @@ let totalResponses = 0;
 
 function preload() {
   for (let i = 1; i <= 10; i++) {
-    images.push(loadImage('img' + i + '.jpg'));
+    images.push(loadImage('images/img' + i + '.jpg'));
 
   }
 }
