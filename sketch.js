@@ -193,10 +193,10 @@ function drawBarGraph() {
       }
     }
 
-   fill(0);
-    textSize(12);
-   textAlign(CENTER);
-    text(resp, i * barWidth + 20 + (barWidth - 30) / 2, height - 5);
+ //  fill(0);
+  // textSize(12);
+  // textAlign(CENTER);
+  //  text(resp, i * barWidth + 20 + (barWidth - 30) / 2, height - 5);
    // text("Does AI support you by saving you time **at home**?", 50, 50);
   }
 }
