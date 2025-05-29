@@ -156,9 +156,9 @@ function draw() {
   }
 
   fill(0);
-  textSize(12);
+  textSize(20);
   textAlign(LEFT);
-  text("Does AI support you by saving you time **at home**? Why or why not? Be specific.", 50, height + 10); // Bottom
+  text("Does AI support you by saving you time **at home**? Why or why not? Be specific.", 50, height - 1); // Bottom
 }
 
 
